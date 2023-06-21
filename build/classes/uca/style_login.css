@@ -1,0 +1,31 @@
+text-field:focused {
+    -fx-text-box-border:#FFFFFF;
+}
+
+.Button
+{
+    -fx-border-radius: 4px;	
+}
+
+.text-field
+{
+	  -fx-prompt-text-fill: #465058;
+	  -fx-text-inner-color:#FBFCFC;
+	  -fx-font-size:15px;
+	  -fx-border-radius: 4px;
+
+}
+#informatique{
+    -fx-background-image:url();
+}
+.navbtn
+{
+    /*-fx-background-color: #6ed9a0;*/
+    -fx-border-color : white;
+    -fx-border-width:  0 0 4 0;
+    -fx-background-color: red;
+}
+.navbtn:hover{
+    -fx-background-color:  #2A363F;
+   
+}

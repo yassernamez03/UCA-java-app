@@ -1,0 +1,52 @@
+text-field:focused {
+    -fx-text-box-border:#FFFFFF;
+}
+
+.Button
+{
+    -fx-background-color: #6ed9a0;
+    -fx-border-color : #2A363F;
+    -fx-border-width:  0 0 10 0;
+    -fx-border-radius: 20px;
+    -fx-background-radius:20px;
+}
+.Button:hover
+{
+    -fx-background-color: #2A363F;
+    -fx-border-radius: 4px;
+    -fx-text-fill: white;
+    -fx-border-color:  white;    
+}
+
+.text-field
+{
+	  -fx-prompt-text-fill: #465058;
+	  -fx-text-inner-color:#FBFCFC;
+	  -fx-font-size:15px;
+	  -fx-border-radius: 4px;
+
+}
+
+/*#profile
+{
+    -fx-background-color: #6ed9a0;
+    -fx-background-color: red;
+}
+.navbtn:hover{
+    -fx-background-color:  #2A363F;
+}*/
+.table-view{
+    -fx-base: #2A2A2A;
+    -fx-control-inner-background: #2A2A2A;
+    -fx-background-color:transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 1;
+    -fx-selection-bar-non-focused: #008287 ;   
+}
+.table-view .column-header-background{
+    -fx-background-color: #1d1d1d;
+    -fx-border-color: transparent transparent rgba(255,255,255,0.3) transparent;
+    -fx-border-width: 1;
+    -fx-background-insets: 0;
+}
+

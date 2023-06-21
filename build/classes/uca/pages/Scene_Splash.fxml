@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #2A363F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uca.pages.Scene_SplashController">
+   <children>
+      <Label layoutX="88.0" layoutY="173.0" text="Welcome To UCA" textAlignment="CENTER" textFill="#6ed9a0">
+         <font>
+            <Font name="Stencil" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="159.0" fitWidth="157.0" layoutX="172.0" layoutY="14.0">
+         <image>
+            <Image url="@../Media/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="107.0" layoutY="222.0" text="Votre université dans une application" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semilight" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <rotationAxis>
+      <Point3D x="1.0" y="1.0" z="1.0" />
+   </rotationAxis>
+</Pane>

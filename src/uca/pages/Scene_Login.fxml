@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="746.0" style="-fx-background-color: #2A363F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uca.pages.Scene_LoginController">
+   <children>
+      <PasswordField fx:id="password" layoutX="404.0" layoutY="213.0" prefHeight="41.0" prefWidth="248.0" promptText="Passwords" style="-fx-border-color: #465058; -fx-background-color: #2A363F;" stylesheets="@Lgoin.css" />
+      <Line endX="100.0" layoutX="373.0" layoutY="254.0" rotate="90.0" startX="-150.0" stroke="#465058" strokeWidth="2.0" />
+      <TextField fx:id="email" layoutX="404.0" layoutY="143.0" prefHeight="41.0" prefWidth="248.0" promptText="Email" style="-fx-background-color: #2A363F; -fx-border-color: #465058;" stylesheets="@Lgoin.css" />
+      <JFXButton fx:id="connect" layoutX="404.0" layoutY="300.0" onAction="#connect" prefHeight="41.0" prefWidth="248.0" style="-fx-background-color: #6ED9A0;" stylesheets="@Lgoin.css" text="CONNECT" textFill="#fbfcfc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="411.0" layoutY="380.0" text="Forgot Password ?" textFill="#465058">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="566.0" layoutY="380.0" text="Questions ?" textFill="#465058">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="147.0" fitWidth="148.0" layoutX="110.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Media/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="17.0" layoutY="275.0" prefHeight="36.0" prefWidth="225.0" text="Ecole Superieure De" textFill="#fcfcfc">
+         <font>
+            <Font name="Segoe UI Semilight" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="314.0" prefHeight="36.0" prefWidth="257.0" text="Technologie Essaouira" textFill="#fcfcfc">
+         <font>
+            <Font name="Segoe UI Semibold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrong_infos" layoutX="400.0" layoutY="79.0" prefHeight="49.0" prefWidth="257.0" textAlignment="CENTER" textFill="#f3ff00" wrapText="true">
+         <font>
+            <Font name="Segoe UI Semilight" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
